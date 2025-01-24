@@ -1,0 +1,16 @@
+h1 span{
+    color: #037bc0;
+}
+
+span{
+    color: #037bc0;
+}
+
+h2 span{
+    color: green;
+}
+
+nav a:first-child {
+    text-transform: uppercase;
+    font-size: 50px;
+} 
