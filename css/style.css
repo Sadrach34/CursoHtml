@@ -1,16 +1,52 @@
-h1 span{
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+/* Globales */
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header y navegacion*/
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nombre-sitio span{
     color: #037bc0;
 }
 
-span{
-    color: #037bc0;
+.contenedor-nav{
+    border-top: 1px solid #e1e1e1;
 }
 
-h2 span{
-    color: green;
+.nav-principal{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-nav a:first-child {
-    text-transform: uppercase;
-    font-size: 50px;
-} 
+.Hero{
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+/* Categorias */
+.List-categorias{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}

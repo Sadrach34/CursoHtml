@@ -7,46 +7,52 @@
     <meta name="keywords" content="NAME">
     <meta name="author" content="Sadrach Juan Diego Garcia Flores">
     <link rel="icon" href="img/Icono.svg">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+
     <title>Ecommerce - Home</title>
 </head>
 <body>
     <header>
-        <h1>Tienda <span>muebles</span></h1>
+        <h1 class="nombre-sitio">Tienda <span>muebles</span></h1>
     </header>
 
-    <nav id="Navegacion">
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="tienda.html">tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
+    <div class="contenedor-nav">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
 
-    <section>
+    <div class="Hero">
+    </div>
+
+    <section class="contenedor">
         <h2>Categorias de <span>productos</span></h2>
-        <div>
-        <a href="#">
-            <img src="img/categoria1.jpg" alt="imagen categoria">
-            oficina
-        </a>
-        </div>
-        <div>
-        <a href="#">
-            <img src="img/categoria2.jpg" alt="imagen categoria">
-            hogar
-        </a>
-        </div>
-        <div>
-        <a href="#">
-            <img src="img/categoria3.jpg" alt="imagen categoria">
-            cocina
-        </a>
+        <div class="List-categorias">
+            <div>
+                <img src="img/categoria1.jpg" alt="imagen categoria">
+                <a href="#">oficina</a>
+            </div>
+
+            <div>
+                <img src="img/categoria2.jpg" alt="imagen categoria">
+                <a href="#">hogar</a>
+            </div>
+
+            <div>
+                <img src="img/categoria3.jpg" alt="imagen categoria">
+                <a href="#">cocina</a>
+            </div>
         </div>
     </section>
 
-    <section>
+    <section class="SobreNosotros">
         <div>
             <h2>sobre nosotros</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quisquam aliquid voluptatum provident incidunt placeat ratione tempora. Quaerat reiciendis cnavpa amet, velit assumenda sapiente eum earum corrupti placeat autem eaque!</p>
@@ -124,12 +130,12 @@
 
         <div>
             <h3>Categorias</h3>
-            <nav id="Navegacion">
-                <a href="#">Cocina</a>
-                <a href="#">Oficina</a>
-                <a href="#">Jardin</a>
-                <a href="#">Cochera</a>
-                <a href="#">Dormitorios</a>
+            <nav class="Navegacion">
+                <a class="Enlace" href="#">Cocina</a>
+                <a class="Enlace" href="#">Oficina</a>
+                <a class="Enlace" href="#">Jardin</a>
+                <a class="Enlace" href="#">Cochera</a>
+                <a class="Enlace" href="#">Dormitorios</a>
             </nav >
         </div>
 
@@ -146,7 +152,7 @@
 
         <div>
             <h3>Soporte</h3>
-            <nav >
+            <nav>
                 <a href="#">Contacto</a>
                 <a href="#">Envios</a>
                 <a href="#">Devoluciones</a>
