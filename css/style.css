@@ -48,5 +48,6 @@ a{
 /* Categorias */
 .List-categorias{
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
 }
