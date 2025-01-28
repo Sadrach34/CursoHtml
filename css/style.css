@@ -16,6 +16,11 @@ a{
     margin: 0 auto;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 /* Header y navegacion*/
 .nombre-sitio{
     margin-top: 50px;
@@ -49,5 +54,22 @@ a{
 .List-categorias{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 100px;
+    gap: 20px;
+}
+
+.categoria a{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover{
+    background-color: #037bc0;
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+
+.categorias h2{
+    text-align: center;
 }
