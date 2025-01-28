@@ -5,10 +5,23 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    font-family: "Raleway", serif;
+}
+
 /* Globales */
 a{
     text-decoration: none;
     color: #000;
+}
+
+h1{
+    font-family: "Playfair", serif;
+}
+
+h2,h3,h4,h5{
+    font-family: "Playfair", serif;
+    font-size: 2.5rem;
 }
 
 .contenedor{
@@ -26,6 +39,7 @@ img{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    font-size: 3.5rem;
 }
 
 .nombre-sitio span{
