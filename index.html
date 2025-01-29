@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <h1 class="nombre-sitio">Tienda <span>muebles</span></h1>
+        <h1 class="nombre-sitio text-center">Tienda <span>muebles</span></h1>
     </header>
 
     <div class="contenedor-nav">
@@ -38,19 +38,19 @@
     </div>
 
     <section class="contenedor categorias">
-        <h2>Categorias de <span>productos</span></h2>
+        <h2 class="text-center">Categorias de productos</h2>
         <div class="List-categorias">
-            <div class="categoria">
+            <div class="categoria text-center">
                 <img src="img/categoria1.jpg" alt="imagen categoria">
                 <a href="#">oficina</a>
             </div>
 
-            <div class="categoria">
+            <div class="categoria text-center">
                 <img src="img/categoria2.jpg" alt="imagen categoria">
                 <a href="#">hogar</a>
             </div>
 
-            <div class="categoria">
+            <div class="categoria text-center">
                 <img src="img/categoria3.jpg" alt="imagen categoria">
                 <a href="#">cocina</a>
             </div>
@@ -58,19 +58,21 @@
     </section>
 
     <section class="SobreNosotros">
-        <div>
-            <h2>sobre nosotros</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quisquam aliquid voluptatum provident incidunt placeat ratione tempora. Quaerat reiciendis cnavpa amet, velit assumenda sapiente eum earum corrupti placeat autem eaque!</p>
+        <div class="contenedor sobre-nosotros-grid"> 
+            <div class="Texto-Nosotros">
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quisquam aliquid voluptatum provident incidunt placeat ratione tempora. Quaerat reiciendis cnavpa amet, velit assumenda sapiente eum earum corrupti placeat autem eaque!</p>
+            </div>    
         </div>
     </section>
 
-    <main>
-        <h2>Nuestros productos</h2>
-        <div>
+    <main class="contenido-principal contenedor">
+        <h2 class="text-center">Nuestros productos</h2>
+        <div class="List-productos">
 
-            <div> 
+            <div class="producto"> 
                 <img src="img/producto1.jpg" alt="Productos">
-                <div>
+                <div class="Info-producto">
                     <h3>producto 1</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
                     <p>$1,000,000</p>
@@ -78,9 +80,9 @@
                 </div> <!-- Info del producto -->
             </div> <!-- producto -->
 
-            <div>
+            <div class="producto">
                 <img src="img/producto2.jpg" alt="Productos">
-                <div>
+                <div class="Info-producto">
                     <h3>producto 2</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
                     <p>$1,000,000</p>
@@ -88,9 +90,9 @@
                 </div> <!-- Info del producto -->
             </div> <!-- producto -->
 
-            <div>
+            <div class="producto">
                 <img src="img/producto3.jpg" alt="Productos">
-                <div>
+                <div class="Info-producto">
                     <h3>producto 3</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
                     <p>$1,000,000</p>
@@ -98,9 +100,9 @@
                 </div> <!-- Info del producto -->
             </div> <!-- producto -->
 
-            <div>
+            <div class="producto">
                 <img src="img/producto4.jpg" alt="Productos">
-                <div>
+                <div class="Info-producto">
                     <h3>producto 4</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
                     <p>$1,000,000</p>
@@ -108,9 +110,9 @@
                 </div> <!-- Info del producto -->
             </div> <!-- producto -->
 
-            <div>
+            <div class="producto">
                 <img src="img/producto5.jpg" alt="Productos">
-                <div>
+                <div class="Info-producto">
                     <h3>producto 5</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
                     <p>$1,000,000</p>
@@ -118,9 +120,9 @@
                 </div> <!-- Info del producto -->
             </div> <!-- producto -->
 
-            <div>
+            <div class="producto">
                 <img src="img/producto6.jpg" alt="Productos">
-                <div>
+                <div class="Info-producto">
                     <h3>producto 6</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
                     <p>$1,000,000</p>
@@ -132,7 +134,6 @@
     </main>
 
     <footer>
-
         <div>
             <h3>Categorias</h3>
             <nav class="Navegacion">

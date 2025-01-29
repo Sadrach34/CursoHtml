@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    font-size: 62.5%; /*  */
+    font-size: 62.5%; /* 1rem = 10px */
 }
 *,*::before,*::after{
     box-sizing: inherit;
@@ -9,9 +9,11 @@ html{
 body{
     font-family: "Raleway", serif;
     font-size: 1.6rem;
-}
+    line-height: 1.5;
+}/* Esto son partes de codigo utiles*/
 
 /* Globales */
+/* Son cosas que se aplicaran a todos el proyecto*/
 a{
     text-decoration: none;
     color: #000;
@@ -19,6 +21,12 @@ a{
 
 h1{
     font-family: "Playfair", serif;
+    font-size: 5rem;
+    margin: 0 0 5rem 0;
+}
+
+h2,h3{
+    font-size: 3rem;
 }
 
 h2,h3,h4,h5{
@@ -35,12 +43,16 @@ img{
     display: block;
 }
 
+/* Utilidades */
+.text-center{
+    text-align: center;
+}
+
+
 /* Header y navegacion*/
 .nombre-sitio{
     margin-top: 5rem;
     margin-bottom: 5rem;
-    text-align: center;
-    font-size: 7rem;
 }
 
 .nombre-sitio span{
@@ -63,10 +75,15 @@ img{
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     height: 55rem;
 }
 
 /* Categorias */
+.categorias{
+    margin-top: 5rem;
+}
+
 .List-categorias{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -74,7 +91,6 @@ img{
 }
 
 .categoria a{
-    text-align: center;
     display: block;
     padding: 2rem;
     font-size: 2rem;
@@ -88,4 +104,35 @@ img{
 
 .categorias h2{
     text-align: center;
+}
+
+/* Sobre Nosotros */
+.SobreNosotros{
+    background-image: linear-gradient(to right, transparent 50%,#037bc0 50%,#037bc0 100%), url(../img/nosotros.jpg);
+    background-position: left center;
+    margin: 3rem 0;
+    padding: 5rem;
+    background-repeat: no-repeat;
+    background-size: 100%, 110rem;
+}
+
+.sobre-nosotros-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+}
+
+.Texto-Nosotros{
+    grid-column: 2/3;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.Texto-Nosotros h2{
+    font-size: 5rem;
+}
+
+/* Nuestros productos */
+.contenido-principal{
+    padding-top: 5rem;
 }
